@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery | Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="gallery-page">
+  <header><h1>Image Gallery </h1>
+  <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="randomphoto.html">Randomphoto</a></li>
+            <li><a href="contact and feedback.html">Contact & Feedback </a></li>
+            <li><a href="tips.html">Tips</a></li>
+        </ul>   
+  </nav>          
+  </header>
+
+  <section class="gallery-options">
+    <h2 class="gallery-title">Explore Nature</h2>
+
+    <div class="buttons">
+<button onclick="filterSelection('all')">All</button>
+<button onclick="filterSelection('flower')">Flowers</button>
+<button onclick="filterSelection('butterfly')">Butterfly</button>
+<button onclick="filterSelection('mountain')">Mountain</button>
+<button onclick="filterSelection('sun')">Sunview</button>
+</div>
+
+
+    <div class="gallery">
+  
+  <div class="item flower">
+    <a href="flower.html">
+      <img src="images/flo.jpg" alt="Flowers">
+      <p>Flowers</p>
+    </a>
+  </div>
+
+  <div class="item butterfly">
+    <a href="butterfly.html">
+      <img src="images/butterfly18.jpg" alt="Butterflies">
+      <p>Butterflies</p>
+    </a>
+  </div>
+
+  <div class="item mountain">
+    <a href="mountain.html">
+      <img src="images/mountain2.jpg" alt="Mountain">
+      <p>Mountain</p>
+    </a>
+  </div>
+
+  <div class="item sunview">
+    <a href="sunview.html">
+      <img src="images/skyview28.jpg" alt="Sun Views">
+      <p>Sunviews</p>
+    </a>
+  </div>
+   
+
+</div>
+    
+  </section>
+
+  <footer>
+    <a href="gallery.html">&rarr; Back to Gallery</a>
+    <p>© 2026 Image Gallery | Designed by Jagriti</p></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
